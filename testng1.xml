@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParameterizationTestSuite1">
+  <test  name="TestingParameterization1">
+  <parameter name="uname" value="invalid"/>
+	<parameter name="pwd" value="valid"/>
+		<classes>
+			<class name="fourthtestngproject.FourthTestNGProject" />
+		</classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

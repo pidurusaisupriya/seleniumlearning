@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParameterizationTestSuite1]">
+  <test thread-count="5" name="TestingParameterization1(failed)">
+    <parameter name="uname" value="invalid"/>
+    <parameter name="pwd" value="valid"/>
+    <classes>
+      <class name="fourthtestngproject.FourthTestNGProject">
+        <methods>
+          <include name="closeHomePage"/>
+          <include name="openHomePage"/>
+          <include name="testLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- fourthtestngproject.FourthTestNGProject -->
+    </classes>
+  </test> <!-- TestingParameterization1(failed) -->
+</suite> <!-- Failed suite [ParameterizationTestSuite1] -->
